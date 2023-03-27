@@ -1,0 +1,17 @@
+.cardContainer{
+  display:flex;
+  padding: 30px;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.cards > * {
+  flex-grow: 1;
+  flex-basis: 0;
+  
+}

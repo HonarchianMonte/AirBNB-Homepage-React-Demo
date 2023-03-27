@@ -1,0 +1,15 @@
+.search_container{
+  position: absolute;
+  top: 35px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.MuiButton-root{
+  border-color: #ff7779 !important
+}
+
+
+

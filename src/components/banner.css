@@ -1,0 +1,38 @@
+.banner_container{
+  background-image: url(https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700&q=80);
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+  background-position-y: 67%;
+}
+
+.banner_info{
+  background-color: black;
+  color: white;
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 250px;
+}
+
+.banner_info > button{
+  background-color: #ff5a5f;
+  color: white;
+  text-transform: inherit;
+  
+  font-weight: 600;
+
+}
+
+.banner_search{
+  display:flex;
+  flex-direction: column;
+}
+
+.banner_search_button{
+  background-color: #ffff !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff5a5f !important;
+}
